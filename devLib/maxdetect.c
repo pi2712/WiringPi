@@ -129,7 +129,7 @@ int maxDetectRead (const int pin, unsigned char buffer [4])
 //	Low for 10mS, high for 40uS.
 
   pinMode      (pin, OUTPUT) ;
-  digitalWrite (pin, 0) ; delay             (10) ;
+  digitalWrite (pin, 0) ; delay             (20) ;
   digitalWrite (pin, 1) ; delayMicroseconds (40) ;
   pinMode      (pin, INPUT) ;
 
